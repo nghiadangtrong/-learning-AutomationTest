@@ -1,0 +1,28 @@
+{
+  "name": "example1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "wdio run \"test.conf.js\"",
+    "test-group-a": "wdio run \"test.conf.js\" -- --suite=group_a",
+    "test-group-b": "wdio run \"test.conf.js\" -- --suite=group_b"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^14.0.23",
+    "@types/webdriverio": "^5.0.0",
+    "@wdio/cli": "^6.3.3",
+    "@wdio/local-runner": "^6.3.3",
+    "@wdio/mocha-framework": "^6.3.0",
+    "@wdio/selenium-standalone-service": "^6.1.14",
+    "@wdio/spec-reporter": "^6.3.0",
+    "@wdio/sync": "^6.3.3",
+    "chai": "^4.2.0",
+    "chromedriver": "^84.0.0",
+    "wdio-chromedriver-service": "^6.0.3",
+    "webdriverio": "^6.3.3"
+  }
+}
